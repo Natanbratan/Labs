@@ -1,0 +1,35 @@
+{
+  "name": "natan",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/server",
+    "serve": "nodemon ./src/server",
+    "prepare": "husky install"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@koa/cors": "^3.3.0",
+    "bcrypt": "^5.0.1",
+    "config": "^3.3.7",
+    "dotenv": "^16.0.1",
+    "koa": "^2.13.4",
+    "koa-bodyparser": "^4.3.0",
+    "koa-joi-router": "^8.0.0",
+    "koa-router": "^10.1.1",
+    "node-fetch": "^2.6.6",
+    "pg": "^8.7.3"
+  },
+  "devDependencies": {
+    "eslint": "^8.18.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "husky": "^8.0.1",
+    "nodemon": "^2.0.18",
+    "prettier": "^2.7.1"
+  }
+}
